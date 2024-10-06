@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* Assignment 1 | COMP1073 Client-Side JavaScript */
+
+
+/* General button styles for all buttons */
+button {
+    border: none; 
+    color: black; 
+    padding: 15px 32px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 24px; 
+    margin: 10px; /*space between buttons*/
+    cursor: pointer;  /*changes cursor to pointer*/
+    border-radius: 5px; /*rounded corner*/
+    transition: background-color 0.3s; 
+}
+/* Individual button background colors have selected the color similar to the toy*/
+
+#btn1 {
+    background-color: purple;
+}
+
+#btn2 {
+    background-color: rgb(25, 225, 252);
+}
+#btn3{
+    background-color: rgb(162, 231, 105);
+}
+#btn4{
+    background-color:  rgb(247, 177, 46);
+}
+#btn5{
+    background-color:  rgb(236, 5, 225);
+}
+#reset{
+    background-color:  red;
+}
+#btn6{
+    background-color: green;
+}
+
+/*General Layout for columns containing images and text */
+.columns {
+    display: flex; 
+    justify-content: space-between; 
+    margin-top: 20px;
+}
+
+
+/* Individual column background colors using same color of buttons */
+.column1 {
+    background-color: purple
+}
+
+.column2{
+    background-color: rgb(25, 225, 252);
+}
+
+.column3{
+    background-color: rgb(162, 231, 105);
+}
+
+.column4 {
+    background-color: rgb(247, 177, 46)
+}
+.column5{
+    background-color:  rgb(236, 5, 225);
+
+}
+/* General styling for all columns that contains the images and text*/
+.column1, .column2, .column3, .column4, .column5 {
+    flex: 1; 
+    margin: 0 10px; 
+    padding: 10px; 
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+    text-align: center; 
+    font-weight: bolder;
+    font-size:16px;
+
+}
+
+/*format the text inside the columns*/
+.column h3 {
+    margin-bottom: 10px; 
+}
+
+/* Styling for images inside the columns */
+.small-image {
+    width: 50px; 
+    height: 40px; 
+    margin-bottom: 5px; 
+    border-radius: 5px; 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+/* Styling for the output text*/
+#output {
+    text-align: center;
+    font-size: 2em; 
+    font-style: italic;
+    margin-bottom: 10vh;
+    margin-top: 10vh;
+    color: #333; 
+}
